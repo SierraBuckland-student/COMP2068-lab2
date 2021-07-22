@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* Curtis/Older Brother Page */
 router.get('/', (req, res, next) => {
-  res.render('curtis', { title: 'Curtis' });
+  res.render('curtis', {layout: 'header', title: 'Curtis' });
 });
 
 module.exports = router;
