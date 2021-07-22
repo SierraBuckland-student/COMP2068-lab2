@@ -1,0 +1,43 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/**************************    NAV BAR STYLES    **********************************/
+.topnav {
+  background-color: #F9DE59;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #E8A628;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #F98365;
+  color: white;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+div .main-content h1{
+  padding: 10px;
+  border: 4px solid #A2DEFA;
+  background-color: #A2DEFA;
+  margin-bottom: 20px;
+}
